@@ -1,0 +1,802 @@
+{
+    "Entities": [
+        {
+            "Components": {
+                "Camera Component": {
+                    "EntityToLookAt": -1,
+                    "Forward": [
+                        -0.4382275342941284,
+                        0.37891721725463867,
+                        0.7873360514640808
+                    ],
+                    "Pitch": -25.699878692626953,
+                    "Right": [
+                        -0.893877387046814,
+                        -0.19441349804401398,
+                        -0.403963565826416
+                    ],
+                    "Speed": 0,
+                    "ThirdPerson": false,
+                    "Up": [
+                        0,
+                        0.901077926158905,
+                        -0.4336571991443634
+                    ],
+                    "Yaw": -1649.10009765625
+                },
+                "Material Component": {
+                    "AmbientColor": [
+                        0.30000001192092896,
+                        0.30000001192092896,
+                        0.30000001192092896
+                    ],
+                    "DiffuseColor": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "Filename": "",
+                    "Shader": 0,
+                    "Shininess": 32,
+                    "SpecularColor": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                },
+                "Mesh Component": {
+                    "FileName": "camerafrustum",
+                    "isVisible": true
+                },
+                "Transform Component": {
+                    "Children": [
+                    ],
+                    "Parent": -1,
+                    "Position": [
+                        115.98578643798828,
+                        29.971139907836914,
+                        -68.63964080810547
+                    ],
+                    "Rotation": [
+                        1,
+                        0,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            },
+            "ID": 0,
+            "Name": "Editor Camera"
+        },
+        {
+            "Components": {
+                "Camera Component": {
+                    "EntityToLookAt": 6,
+                    "Forward": [
+                        0.9382764101028442,
+                        -0.048859693109989166,
+                        -0.14860759675502777
+                    ],
+                    "Pitch": -18.200000762939453,
+                    "Right": [
+                        0.16445448994636536,
+                        0.30808237195014954,
+                        0.9370378255844116
+                    ],
+                    "Speed": 0,
+                    "ThirdPerson": true,
+                    "Up": [
+                        0,
+                        0.9499720335006714,
+                        -0.31233492493629456
+                    ],
+                    "Yaw": -81.00004577636719
+                },
+                "Material Component": {
+                    "AmbientColor": [
+                        0.30000001192092896,
+                        0.30000001192092896,
+                        0.30000001192092896
+                    ],
+                    "DiffuseColor": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "Filename": "",
+                    "Shader": 0,
+                    "Shininess": 32,
+                    "SpecularColor": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                },
+                "Mesh Component": {
+                    "FileName": "camerafrustum",
+                    "isVisible": true
+                },
+                "Transform Component": {
+                    "Children": [
+                    ],
+                    "Parent": 6,
+                    "Position": [
+                        0,
+                        40,
+                        50
+                    ],
+                    "Rotation": [
+                        1,
+                        0,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            },
+            "ID": 1,
+            "Name": "Game Camera"
+        },
+        {
+            "Components": {
+                "Material Component": {
+                    "AmbientColor": [
+                        0.30000001192092896,
+                        0.30000001192092896,
+                        0.30000001192092896
+                    ],
+                    "DiffuseColor": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "Filename": "",
+                    "Shader": 0,
+                    "Shininess": 32,
+                    "SpecularColor": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                },
+                "Mesh Component": {
+                    "FileName": "axis.txt",
+                    "isVisible": true
+                },
+                "Transform Component": {
+                    "Children": [
+                    ],
+                    "Parent": -1,
+                    "Position": [
+                        0,
+                        -1.2999999523162842,
+                        0
+                    ],
+                    "Rotation": [
+                        1,
+                        0,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            },
+            "ID": 2,
+            "Name": "Axis"
+        },
+        {
+            "Components": {
+                "Material Component": {
+                    "AmbientColor": [
+                        0.30000001192092896,
+                        0.30000001192092896,
+                        0.30000001192092896
+                    ],
+                    "DiffuseColor": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "Filename": "skyboxSpace.bmp",
+                    "Shader": 1,
+                    "Shininess": 32,
+                    "SpecularColor": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                },
+                "Mesh Component": {
+                    "FileName": "skybox",
+                    "isVisible": true
+                },
+                "Transform Component": {
+                    "Children": [
+                    ],
+                    "Parent": -1,
+                    "Position": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        1,
+                        0,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        1000,
+                        1000,
+                        1000
+                    ]
+                }
+            },
+            "ID": 3,
+            "Name": "Skybox"
+        },
+        {
+            "Components": {
+                "Audio Component": {
+                    "FileName": "laser.wav ",
+                    "Gain": 1,
+                    "ShouldLoop": false
+                },
+                "Collision Component": {
+                    "LocalOrigin": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Radius": 1
+                },
+                "Input Component": {
+                    "Input": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "Material Component": {
+                    "AmbientColor": [
+                        0.699999988079071,
+                        0.699999988079071,
+                        0.699999988079071
+                    ],
+                    "DiffuseColor": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "Filename": "eye.bmp",
+                    "Shader": 2,
+                    "Shininess": 32,
+                    "SpecularColor": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                },
+                "Mesh Component": {
+                    "FileName": "SphereUVMapped.obj",
+                    "isVisible": true
+                },
+                "Physics Component": {
+                    "Speed": 0.30000001192092896
+                },
+                "Script Component": {
+                    "FileName": "ai.js"
+                },
+                "Transform Component": {
+                    "Children": [
+                    ],
+                    "Parent": -1,
+                    "Position": [
+                        90,
+                        10.180000305175781,
+                        90
+                    ],
+                    "Rotation": [
+                        0.3826834559440613,
+                        0,
+                        0.9238795638084412,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            },
+            "ID": 4,
+            "Name": "Enemy"
+        },
+        {
+            "Components": {
+                "Landscape Component": {
+                    "FileName": "D:/Programming/INNgine2019/Scenes/game.bmp",
+                    "Height": 44,
+                    "Width": 44,
+                    "h": 4.5,
+                    "xmax": 99,
+                    "xmin": -99,
+                    "ymax": 34.12430953979492,
+                    "ymin": -20.38850975036621,
+                    "zmax": 99,
+                    "zmin": -99
+                },
+                "Material Component": {
+                    "AmbientColor": [
+                        0.05000000074505806,
+                        0.20000000298023224,
+                        0
+                    ],
+                    "DiffuseColor": [
+                        0.20000000298023224,
+                        0.30000001192092896,
+                        0
+                    ],
+                    "Filename": "",
+                    "Shader": 2,
+                    "Shininess": 32,
+                    "SpecularColor": [
+                        0.05000000074505806,
+                        0.05000000074505806,
+                        0.05000000074505806
+                    ]
+                },
+                "Mesh Component": {
+                    "FileName": "landscape2",
+                    "isVisible": true
+                }
+            },
+            "ID": 5,
+            "Name": "Landscape 2"
+        },
+        {
+            "Components": {
+                "Audio Component": {
+                    "FileName": "Caravan_mono.wav",
+                    "Gain": 1,
+                    "ShouldLoop": false
+                },
+                "Collision Component": {
+                    "LocalOrigin": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Radius": 1
+                },
+                "Input Component": {
+                    "Input": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "Material Component": {
+                    "AmbientColor": [
+                        0.800000011920929,
+                        0.10000000149011612,
+                        0.800000011920929
+                    ],
+                    "DiffuseColor": [
+                        1,
+                        0,
+                        1
+                    ],
+                    "Filename": "white.bmp",
+                    "Shader": 2,
+                    "Shininess": 6,
+                    "SpecularColor": [
+                        0.4000000059604645,
+                        0.4000000059604645,
+                        0.4000000059604645
+                    ]
+                },
+                "Mesh Component": {
+                    "FileName": "ball2.txt",
+                    "isVisible": true
+                },
+                "Physics Component": {
+                    "Speed": 0.4000000059604645
+                },
+                "Script Component": {
+                    "FileName": "player.js"
+                },
+                "Transform Component": {
+                    "Children": [
+                        1
+                    ],
+                    "Parent": -1,
+                    "Position": [
+                        0,
+                        7.300000190734863,
+                        36.400001525878906
+                    ],
+                    "Rotation": [
+                        1,
+                        0,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            },
+            "ID": 6,
+            "Name": "Player"
+        },
+        {
+            "Components": {
+                "Audio Component": {
+                    "FileName": "laser.wav ",
+                    "Gain": 1,
+                    "ShouldLoop": false
+                },
+                "Collision Component": {
+                    "LocalOrigin": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Radius": 1
+                },
+                "Input Component": {
+                    "Input": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "Material Component": {
+                    "AmbientColor": [
+                        0.699999988079071,
+                        0.699999988079071,
+                        0.699999988079071
+                    ],
+                    "DiffuseColor": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "Filename": "eye.bmp",
+                    "Shader": 2,
+                    "Shininess": 32,
+                    "SpecularColor": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                },
+                "Mesh Component": {
+                    "FileName": "SphereUVMapped.obj",
+                    "isVisible": true
+                },
+                "Physics Component": {
+                    "Speed": 0.30000001192092896
+                },
+                "Script Component": {
+                    "FileName": "ai.js"
+                },
+                "Transform Component": {
+                    "Children": [
+                    ],
+                    "Parent": -1,
+                    "Position": [
+                        -90,
+                        15.029999732971191,
+                        90
+                    ],
+                    "Rotation": [
+                        0.9238795042037964,
+                        0,
+                        0.3826834559440613,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            },
+            "ID": 7,
+            "Name": "Enemy"
+        },
+        {
+            "Components": {
+                "Audio Component": {
+                    "FileName": "laser.wav ",
+                    "Gain": 1,
+                    "ShouldLoop": false
+                },
+                "Collision Component": {
+                    "LocalOrigin": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Radius": 1
+                },
+                "Input Component": {
+                    "Input": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "Material Component": {
+                    "AmbientColor": [
+                        0.699999988079071,
+                        0.699999988079071,
+                        0.699999988079071
+                    ],
+                    "DiffuseColor": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "Filename": "eye.bmp",
+                    "Shader": 2,
+                    "Shininess": 32,
+                    "SpecularColor": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                },
+                "Mesh Component": {
+                    "FileName": "SphereUVMapped.obj",
+                    "isVisible": true
+                },
+                "Physics Component": {
+                    "Speed": 0.30000001192092896
+                },
+                "Script Component": {
+                    "FileName": "ai.js"
+                },
+                "Transform Component": {
+                    "Children": [
+                    ],
+                    "Parent": -1,
+                    "Position": [
+                        90,
+                        7.889999866485596,
+                        -90
+                    ],
+                    "Rotation": [
+                        0.3826834559440613,
+                        0,
+                        -0.9238795638084412,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            },
+            "ID": 8,
+            "Name": "Enemy"
+        },
+        {
+            "Components": {
+                "Audio Component": {
+                    "FileName": "laser.wav ",
+                    "Gain": 1,
+                    "ShouldLoop": false
+                },
+                "Collision Component": {
+                    "LocalOrigin": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Radius": 1
+                },
+                "Input Component": {
+                    "Input": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "Material Component": {
+                    "AmbientColor": [
+                        0.699999988079071,
+                        0.699999988079071,
+                        0.699999988079071
+                    ],
+                    "DiffuseColor": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "Filename": "eye.bmp",
+                    "Shader": 2,
+                    "Shininess": 32,
+                    "SpecularColor": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                },
+                "Mesh Component": {
+                    "FileName": "SphereUVMapped.obj",
+                    "isVisible": true
+                },
+                "Physics Component": {
+                    "Speed": 0.30000001192092896
+                },
+                "Script Component": {
+                    "FileName": "ai.js"
+                },
+                "Transform Component": {
+                    "Children": [
+                    ],
+                    "Parent": -1,
+                    "Position": [
+                        -90,
+                        -4.139999866485596,
+                        -90
+                    ],
+                    "Rotation": [
+                        0.9238795042037964,
+                        0,
+                        -0.3826834559440613,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            },
+            "ID": 9,
+            "Name": "Enemy"
+        },
+        {
+            "Components": {
+                "Audio Component": {
+                    "FileName": "MenuYes.wav",
+                    "Gain": 1,
+                    "ShouldLoop": false
+                },
+                "Collision Component": {
+                    "LocalOrigin": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Radius": 1
+                },
+                "Input Component": {
+                    "Input": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "Material Component": {
+                    "AmbientColor": [
+                        0.6000000238418579,
+                        0.6000000238418579,
+                        0
+                    ],
+                    "DiffuseColor": [
+                        0.8500000238418579,
+                        0.8500000238418579,
+                        0
+                    ],
+                    "Filename": "white.bmp",
+                    "Shader": 2,
+                    "Shininess": 10,
+                    "SpecularColor": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                "Mesh Component": {
+                    "FileName": "suzanne.obj",
+                    "isVisible": true
+                },
+                "Physics Component": {
+                    "Speed": 0
+                },
+                "Script Component": {
+                    "FileName": "trophy.js"
+                },
+                "Transform Component": {
+                    "Children": [
+                    ],
+                    "Parent": -1,
+                    "Position": [
+                        -4,
+                        9.019913673400879,
+                        -45
+                    ],
+                    "Rotation": [
+                        1,
+                        0,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            },
+            "ID": 10,
+            "Name": "Trophy"
+        },
+        {
+            "Components": {
+                "Light Component": {
+                    "AmbientColor": [
+                        0.699999988079071,
+                        0.699999988079071,
+                        0.699999988079071
+                    ],
+                    "DiffuseColor": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "SpecularColor": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                "Transform Component": {
+                    "Children": [
+                    ],
+                    "Parent": -1,
+                    "Position": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        0.9994630217552185,
+                        0.026324214413762093,
+                        -0.01721736043691635,
+                        0.009179050102829933
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            },
+            "ID": 11,
+            "Name": "Light"
+        }
+    ],
+    "SceneName": "game.json"
+}

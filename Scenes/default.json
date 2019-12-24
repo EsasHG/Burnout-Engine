@@ -1,0 +1,232 @@
+{
+    "Entities": [
+        {
+            "Components": {
+                "Camera Component": {
+                    "EntityToLookAt": -1,
+                    "Forward": [
+                        -0.02936830185353756,
+                        -0.5399113893508911,
+                        -0.8409981727600098
+                    ],
+                    "Pitch": -32.70000457763672,
+                    "Right": [
+                        0.999568521976471,
+                        -0.015868762508034706,
+                        -0.024718131870031357
+                    ],
+                    "Speed": 0,
+                    "ThirdPerson": false,
+                    "Up": [
+                        0,
+                        0.8415107727050781,
+                        -0.540240466594696
+                    ],
+                    "Yaw": 2
+                },
+                "Material Component": {
+                    "AmbientColor": [
+                        0.30000001192092896,
+                        0.30000001192092896,
+                        0.30000001192092896
+                    ],
+                    "DiffuseColor": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "Filename": "",
+                    "Shader": 0,
+                    "Shininess": 32,
+                    "SpecularColor": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                },
+                "Mesh Component": {
+                    "FileName": "camerafrustum",
+                    "isVisible": true
+                },
+                "Transform Component": {
+                    "Children": [
+                    ],
+                    "Parent": -1,
+                    "Position": [
+                        0.36391782760620117,
+                        8.096368789672852,
+                        10.509763717651367
+                    ],
+                    "Rotation": [
+                        1,
+                        0,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            },
+            "ID": 0,
+            "Name": "Editor Camera"
+        },
+        {
+            "Components": {
+                "Camera Component": {
+                    "EntityToLookAt": -1,
+                    "Forward": [
+                        0,
+                        0,
+                        -1
+                    ],
+                    "Pitch": 0,
+                    "Right": [
+                        1,
+                        0,
+                        0
+                    ],
+                    "Speed": 0,
+                    "ThirdPerson": false,
+                    "Up": [
+                        0,
+                        1,
+                        0
+                    ],
+                    "Yaw": 0
+                },
+                "Material Component": {
+                    "AmbientColor": [
+                        0.30000001192092896,
+                        0.30000001192092896,
+                        0.30000001192092896
+                    ],
+                    "DiffuseColor": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "Filename": "",
+                    "Shader": 0,
+                    "Shininess": 32,
+                    "SpecularColor": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                },
+                "Mesh Component": {
+                    "FileName": "camerafrustum",
+                    "isVisible": true
+                },
+                "Transform Component": {
+                    "Children": [
+                    ],
+                    "Parent": -1,
+                    "Position": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        1,
+                        0,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            },
+            "ID": 1,
+            "Name": "Game Camera"
+        },
+        {
+            "Components": {
+                "Material Component": {
+                    "AmbientColor": [
+                        0.30000001192092896,
+                        0.30000001192092896,
+                        0.30000001192092896
+                    ],
+                    "DiffuseColor": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "Filename": "",
+                    "Shader": 0,
+                    "Shininess": 32,
+                    "SpecularColor": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                },
+                "Mesh Component": {
+                    "FileName": "axis.txt",
+                    "isVisible": true
+                }
+            },
+            "ID": 2,
+            "Name": "Axis"
+        },
+        {
+            "Components": {
+                "Material Component": {
+                    "AmbientColor": [
+                        0.30000001192092896,
+                        0.30000001192092896,
+                        0.30000001192092896
+                    ],
+                    "DiffuseColor": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "Filename": "skyboxSpace.bmp",
+                    "Shader": 1,
+                    "Shininess": 32,
+                    "SpecularColor": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                },
+                "Mesh Component": {
+                    "FileName": "skybox",
+                    "isVisible": true
+                },
+                "Transform Component": {
+                    "Children": [
+                    ],
+                    "Parent": -1,
+                    "Position": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        1,
+                        0,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        1000,
+                        1000,
+                        1000
+                    ]
+                }
+            },
+            "ID": 3,
+            "Name": "Skybox"
+        }
+    ],
+    "SceneName": "default.json"
+}
